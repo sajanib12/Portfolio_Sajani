@@ -1,0 +1,112 @@
+.topimage{
+  text-align: center;
+  height: 250px;; 
+  position:static;
+  width:auto;
+  /* z-index:5; */
+  background: url('/images/toppart.jpg')
+}
+ h1{
+  margin-top:50px;
+  padding-top:50px;
+  color:cornsilk;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif, Courier, monospace, sans-serif;
+  text-decoration: underline;
+ }
+.education{
+  text-decoration: black;
+}
+.experience{
+  
+  text-decoration:black;
+
+}
+
+.centered{
+
+  text-align: center;
+  text-justify: auto;
+
+}
+#listmenu{
+  display: block;
+  float:center;
+  margin: 10px;
+  /* width: 900px; */
+  font-family: sans-serif;
+  overflow:hidden;
+}
+
+#listmenu li {
+  
+  display:block;
+	width:120px;
+	float:right;
+	margin-left:2px;
+	border:1px solid #000;
+
+}
+
+#listmenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+  color:cornsilk;
+
+
+}
+
+.mainpic{
+  height: auto;
+  width: 33vw;
+  float:left;
+  border: 5px solid firebrick;
+
+}
+
+.witpic{
+  height:200px;
+  width: 300px;
+  /* float:right; */
+}
+
+.nitwpic{
+  height:150px;
+  width: 200px;
+  }
+
+/* .junopic{
+  float:left;
+} */
+
+.abtme{
+  background-color:ghostwhite;
+}
+.borderall{
+  border: 5px solid firebrick; 
+}
+
+.volpic{
+  height:250px;
+  width: 300px;
+}
+.linkpic{
+  height:100px;
+  width: 100px;
+  border: 5px solid rgb(56, 74, 155); 
+}
+.bgcol{
+  background-color: burlywood;
+}
+
+
+body{
+  display: flex;
+  flex-wrap:wrap; 
+  justify-content: center;
+   margin-top: 50px;
+}
+.headingsh2{
+  text-decoration: underline;
+}
